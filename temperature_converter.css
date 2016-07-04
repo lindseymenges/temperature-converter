@@ -1,0 +1,74 @@
+body {
+  font-family: sans-serif;
+  background-color: #111046;
+  color: #C0BFE5;
+}
+h2 {
+  margin: 15px 0 5px 0;
+  font-size: 30pt;
+}
+h4 {
+  margin: 0;
+  font-size: 12pt;
+}
+#container {
+  height: 200px;
+  width: 425px;
+  margin: 200px auto;
+}
+.temp-container {
+  width: 100%;
+}
+.displays {
+  margin-bottom: 20px;
+}
+.temperature-display {
+  display: inline-block;
+}
+.temperature-display.celsius {
+  float: right;
+  text-align: right;
+}
+.temperature-display.fahrenheit {
+  text-align: left;
+}
+.temperature-form {
+  border: 1px solid #C0BFE5;
+  border-radius: 5px;
+  margin: auto;
+  padding: 15px 10px;
+}
+.form-selectors {
+  width: 270px;
+  margin: auto;
+}
+#form-degrees-input, #form-temperature-type {
+  height: 25px;
+  display: inline-block;
+  font-size: 15pt;
+  background-color: #C0BFE5;
+  border: none;
+  padding: 0 5px;
+}
+#form-degrees-input {
+  width: 110px;
+}
+#form-temperature-type {
+  width: 130px;
+  text-align: center;
+  float: right;
+}
+#form-degrees-input, #form-temperature-type, #temperature-submit {
+  color: #1D1A00;
+  border-radius: 5px;
+  outline: none;
+}
+#temperature-submit {
+  color: #111046;
+  display: block;
+  padding: 0 15px;
+  margin: 10px auto 0 auto;
+  font-size: 20pt;
+  background-color: #AAA039;
+  border: none;
+}
